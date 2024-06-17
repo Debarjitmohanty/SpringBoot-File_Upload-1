@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: SpringBoot-File_Upload
+upload:
+  files:
+    path: C:\Users\DEBARJIT\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\SpringBoot-File_Upload\src\main\resources
+    extension: jpg,png,jpeg,gif 
+h2:
+  console:
+    enable: true
+  datasource:
+               
+     username: root
+     password: tiger
+     url: jdbc:h2:mem:mydb
+     driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  
